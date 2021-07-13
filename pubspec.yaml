@@ -1,0 +1,30 @@
+name: flutter_aws_s3
+description: Accessing AWS S3 Service from a Flutter Application.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  amplify_flutter: ^0.2.0
+  amplify_auth_cognito: ^0.2.0
+  amplify_storage_s3: ^0.2.0
+  image_picker: ^0.8.1+3
+  video_player: ^2.1.10
+  file_picker: ^3.0.3
+  path_provider: ^2.0.2
+  provider: ^5.0.0
+
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
